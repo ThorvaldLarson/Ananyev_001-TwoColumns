@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="1"
+    android:columnCount="2"
+    android:background="#cb0001"
+    >
+
+    <LinearLayout
+        android:id="@+id/first_column"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_margin="20dp"
+        android:background="#669801"
+        >
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawablePadding="5dp"
+        android:text="Some text"
+        android:gravity="center"
+        android:textColor="#a5a5a5"
+        android:background="#fdfdfe"
+        android:layout_margin="5dp"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:drawablePadding="5dp"
+            android:text="Some text"
+            android:gravity="center"
+            android:textColor="#a5a5a5"
+            android:background="#fdfdfe"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:drawablePadding="5dp"
+            android:text="Some text"
+            android:gravity="center"
+            android:textColor="#a5a5a5"
+            android:background="#fdfdfe"
+            android:layout_margin="5dp"
+            />
+
+    </LinearLayout>
+
+</GridLayout>
